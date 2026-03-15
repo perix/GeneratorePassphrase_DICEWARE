@@ -23,9 +23,7 @@ function App() {
       {/* Header */}
       <header className="w-full py-4 px-6 border-b bg-card/50 backdrop-blur-sm sticky top-0 z-10 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="w-8 h-8 rounded-md bg-gradient-to-br from-blue-500 to-teal-400 flex items-center justify-center text-white font-bold shadow-sm">
-            🎲
-          </div>
+          <img src="/favicon.png" alt="Logo" className="w-8 h-8 rounded-md shadow-sm object-contain" />
           <span className="font-bold text-lg tracking-tight">Generatore Passphrase</span>
         </div>
         
