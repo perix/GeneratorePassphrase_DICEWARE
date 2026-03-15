@@ -46,7 +46,7 @@ function App() {
       <footer className="w-full py-6 text-center text-sm text-muted-foreground border-t bg-card/30">
         <p>
           Generatore di Passphrase sicure basato sul metodo Diceware. <br />
-          Le parole sono stimate su <a href="https://pages.github.com" className="underline underline-offset-4 hover:text-primary transition-colors">standard NIST SP 800-63B</a>.
+          Le parole sono stimate su <a href="https://pages.nist.gov/800-63-4/sp800-63b.html#appA" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:text-primary transition-colors">standard NIST SP 800-63B</a>.
         </p>
       </footer>
       
